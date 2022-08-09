@@ -2,12 +2,12 @@ const somar = document.querySelector("#somar")
 const braco = document.querySelector("#braco")
 const subtrair = document.querySelector("#subtrair")
 
-somar.addEventListener("click", (evento) => {
-   
+somar.addEventListener("click", () => {
+    manipulaDados("somar");
 })
 
-subtrair.addEventListener("click", (evento) => {
-    
+subtrair.addEventListener("click", () => {
+    manipulaDados("subtrair");
 })
 
 function manipulaDados(operacao) {
