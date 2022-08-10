@@ -1,5 +1,3 @@
-
-
 const controle = document.querySelectorAll("[data-controle]")//quando for buscado um elmento pelo "data-atribute" deve ser entr [] e sempre entre ""
 
 
