@@ -1,6 +1,6 @@
 const controle = document.querySelectorAll("[data-controle]")//quando for buscado um elmento pelo "data-atribute" deve ser entr [] e sempre entre ""
 const estatisticas = document.querySelectorAll("[data-estatistica]")
-
+console.log(controle);
 const pecas = {
     "bracos": {
         "forca": 29,
